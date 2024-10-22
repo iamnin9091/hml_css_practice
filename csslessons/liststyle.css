@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+body{
+    font-family: "Arima";
+    padding: 5% 10%;
+    /* font-size: 2rem; */
+}
+ol{
+    list-style-type:none;
+}
+
+ul{
+    list-style-type:square;
+    text-align: center;
+    list-style-position: outside;
+    line-height: 1.5;
+    list-style-image: url('../image/me.jpg');
+}
+ul li:nth-child(odd){
+    color: red;
+}
+
+ol ::marker{
+   color: black; 
+   font-family: fantasy;
+   font-size: 1rem;
+   content: "Only $5 ";/*used for write something in list*/
+}

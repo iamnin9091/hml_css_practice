@@ -18,6 +18,8 @@ a:visited{
 
 a:hover,a:focus{/*hover used for effect in defined section*/
     color: darkred;
+    opacity: 0.9;
+    background: greenyellow;
 }
 a:active{
     color: orange;
