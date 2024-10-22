@@ -1,0 +1,13 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background:#ffebcd;
+    color: #00008b;
+}
+p{
+    color: rgba(16, 5, 5);/*by using rgba(0,0,0,0) color became transparent*/
+}
+article{
+    color:#4f2e0d;
+}

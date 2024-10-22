@@ -1,0 +1,35 @@
+body{
+    font-size: 20px;
+    /* border: 1px solid gray; */
+}
+p{
+    color: aqua/*!important*/;/*important flag override the rule of precedences*/
+}
+article{
+    color: blue;
+}
+.para{
+    color: darkorange;
+}
+#art{
+    color: hotpink;
+    font-style: italic;
+}
+h1,h3{
+  color: yellowgreen;  
+}
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+/* * {
+    font-style: italic;
+    font-family: monospace;
+    border: 2px solid ; 
+}  */
+main{
+font-family: monospace;
+}
+ button,input,textarea,select{
+    font: inherit;
+} 

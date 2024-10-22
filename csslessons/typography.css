@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 1.5rem;
+    /* color: green; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* input,button{
+    font: inherit;
+    
+} */
+ p{
+    /*text-decoration: line-through;--line through the text*/
+    /*text-transform:uppercase ;--case define*/
+    text-align: justify;/*set alignment for text*/
+    /*text-indent: 2em;/*text starting indent*/
+    line-height: 1.5;
+    /* letter-spacing: .02em;
+    word-spacing: .5em;--space between letter and word */
+    font-weight: 00;
+    /*font-style: oblique;*/
+ }
